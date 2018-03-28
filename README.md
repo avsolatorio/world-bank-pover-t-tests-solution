@@ -152,4 +152,4 @@ Logs from the model training can be accessed by looking at the `output.logs` fil
 
 ## Other details
 
-Please check the [Background and Submission Overview](./Background and Submission Overview.md) for more details.
+Please check the [Background and Submission Overview](./Background%20and%20Submission%20Overview.md) for more details.
