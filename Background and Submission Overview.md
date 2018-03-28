@@ -176,7 +176,7 @@ I've been comparing the distribution of test predictions per country but I would
 
 
 ### Potentially Helpful Features
-I think giving some insights about what the features were would have been very helpful. In any case, I designed the model itself to be agnostic to the features and simply used statistics and allow the models to learn the relevant ones. I think a more involved feature selection could have improve my model's performance!
+I think giving some insights about what the features were would have been very helpful. In any case, I designed the model itself to be agnostic to the features and simply used statistics and allow the models to learn the relevant ones. I think a more involved feature selection could have improved my model's performance!
 
 
 ### Anything we should watch out for or be aware of in using your model (e.g. code quirks, memory requirements, numerical stability issues, etc.)?
