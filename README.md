@@ -149,3 +149,7 @@ Assuming you're in the root directory, navigate inside the `src/` directory and 
 The submission file will be generated and stored in the `submission/` directory in the project root.
 
 Logs from the model training can be accessed by looking at the `output.logs` file.
+
+## Other details
+
+Please check the [Background and Submission Overview.md](Background and Submission Overview.md) for more details.
