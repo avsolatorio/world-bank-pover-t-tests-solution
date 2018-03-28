@@ -6,7 +6,7 @@
 # Entrant Background and Submission Overview
 
 ### Who are you (mini-bio) and what do you do professionally?
-I'm a Data Scientist currently specializing in AI&mdash;primarily in the field of NLP and Information Retrieval. I'm leading an R&D team working on applying AI in job matching and recruitment at [Kalibrr](https://www.kalibrr.com). I have a Masters degree in Physics and worked on time-series and complex systems before. I enjoy binging on blogs and youtube videos about AI and its applications to NLP problems.
+I'm a Data Scientist currently specializing in AI&mdash;primarily in the field of NLP and Information Retrieval. I currently work as a Senior Manager for R&D and leading an R&D team working on applying AI in job matching and recruitment at [Kalibrr](https://www.kalibrr.com). I have a Masters degree in Physics and worked on time-series and complex systems before. I enjoy binging on blogs and youtube videos about AI and its applications to NLP problems.
 
 ### High level summary of your approach: what did you do and why?
 This competition is very challenging due to the very anonymous nature of the data. Only very limited feature engineering can be done. Also, without any comprehensible insights about the features, I just decided to use an L1 regularized Logistic Regression model (with its sparse solutions in mind) to set a benchmark. It ended up working pretty well with the country A dataset.
