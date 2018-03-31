@@ -106,9 +106,9 @@ The following base models are used:
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 * [XGBoost](http://xgboost.readthedocs.io/en/latest/model.html)
 
-Each variation is produced by performing bayesian optimization over the base models given a range of parameter values. The bayesian optimization is trained to optimize the prediction score over an optimization fold. The optimization fold is allowed to randomly vary for a more robust model mixture to prevent overfitting which is likely to happen if only a single optimization fold is used.
+Each variation is produced by performing Bayesian optimization over the base models given a range of parameter values. The Bayesian optimization is trained to optimize the prediction score over an optimization fold. The optimization fold is allowed to randomly vary for a more robust model mixture to prevent overfitting which is likely to happen if only a single optimization fold is used.
 
-The top 20 meta-models having the highest optimization-fold score are included in the blending model. The blending model is build by optimizing the loss metric of the out-of-fold (OOF) predictions. The variables over which the optimization is made are the weights of each meta-model to the final prediction.
+The top 20 meta-models having the highest optimization-fold score are included in the blending model. The blending model is trained by optimizing the log loss of the out-of-fold (OOF) predictions against the actual values. The variables over which the optimization is made are the weights of each meta-model to the final prediction.
 
 
 ## Dependencies
