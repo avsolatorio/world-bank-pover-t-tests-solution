@@ -1,5 +1,8 @@
 # Overview and Instructions for Result Replication
 
+## Competition page
+
+[World Bank Pover-T Tests: Predicting Poverty](https://www.drivendata.org/competitions/50/worldbank-poverty-prediction/page/97/)
 
 ## Project Tree
 
