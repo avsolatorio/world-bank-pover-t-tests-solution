@@ -59,7 +59,7 @@ The data below should be present inside the `data/` directory in order to procee
 
 ### Transforming raw data for training
 
-Assuming you're in the root directory, navigate inside the `src/` directory and open the `Data Processor Original Dataset.ipynb` notebook. The notebook will do the following transformations to the `hhold` and `indiv` datasets for each country.
+Assuming you're in the root directory, navigate inside the `src/` directory and open the [Data Processor Original Dataset.ipynb](./src/Data%20Processor%20Original%20Dataset.ipynb) notebook. The notebook will do the following transformations to the `hhold` and `indiv` datasets for each country.
 
 
 **Process to generate *indiv_cat*:**
@@ -153,7 +153,7 @@ $ pip install -r requirements.txt
 ## Replicating Results
 
 
-Assuming you're in the root directory, navigate inside the `src/` directory and open the `Full Bayesian Model Training and Predictions.ipynb` notebook. Run all cells. This will take a while to complete.
+Assuming you're in the root directory, navigate inside the `src/` directory and open the [Full Bayesian Model Training and Predictions.ipynb](./src/Full%20Bayesian%20Model%20Training%20and%20Predictions.ipynb) notebook. Run all cells. This will take a while to complete.
 
 The submission file will be generated and stored in the `submission/` directory in the project root.
 
