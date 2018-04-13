@@ -9,6 +9,7 @@ world-bank-pover-t-tests-solution
 ├── data
 │   └── get_data.sh
 ├── README.md
+├── requirements.txt
 ├── src
 │   ├── bayesian-opts-res
 │   │   └── bayesian-opt-test-preds
@@ -21,7 +22,7 @@ world-bank-pover-t-tests-solution
 │       └── training_utils.py
 └── submission
 
-6 directories, 9 files
+6 directories, 10 files
 ```
 
 
@@ -140,6 +141,11 @@ This project depends on the following python modules:
     * matplotlib==2.0.0
     * tqdm==4.11.2
 
+Install the needed modules by running the command below in the project root directory:
+
+```
+$ pip install -r requirements.txt
+```
 
 ## Replicating Results
 
